@@ -11,7 +11,7 @@ public class DemoApplication {
 
 	@GetMapping("/")
 	public String message(){
-		return "Dockerizing Spring boot application with Google Jib";
+		return "Dockerizing Spring boot application with Google Jib using Jenkins";
 	}
 
 	public static void main(String[] args) {
